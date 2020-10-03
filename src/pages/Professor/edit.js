@@ -98,6 +98,7 @@ export default function Edit(props) {
             type="select"
             onChange={onChange}
           >
+            <option value="">Select a option</option>
             {departaments.map((departament) => (
               <option
                 value={departament.id}
